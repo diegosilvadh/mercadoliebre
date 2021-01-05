@@ -31,6 +31,7 @@ header div.top-header p{
 
 header{
     background-color: #EAC926;
+    padding: 10%;
 }
 
 header div.logo,
@@ -41,6 +42,12 @@ header .form{
 header div.logo{
     padding: 10px;
 }
+
+.logo {
+    width: 200px;
+    animation: aumentar 1000ms  linear infinite alternate;
+}
+
 header .form{
     display: flex;
     align-items: center;
@@ -270,6 +277,22 @@ button:hover {
         width: 50%;
     }
 }
+
+    /* footer */
+    .main-footer1 {
+        display: flex;
+     }
+    .control-footer1 {
+        text-align: center;
+    }
+    .main-footer1 {
+        padding: 2em;
+    }
+    .icono-footer {
+        color:#1259c3;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
 
 @media (min-width: 769px){
     main section div.products article{
